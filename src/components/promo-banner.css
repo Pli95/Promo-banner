@@ -1,0 +1,77 @@
+/* Add your global styles here */
+
+#promotion-banner {
+    background-color: #26302f;
+    color: #fff;
+    position: fixed;
+    top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #img-set img {
+    width: 50px;
+    padding: 0 2px;
+  }
+
+  #main-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #countdown-timer {
+    /* font-size: 1.5em; */
+    margin-bottom: 10px;
+    display: flex;
+  }
+
+  #countdown-timer div {
+    background: white;
+    color: black;
+    border-radius: 2px;
+    margin: 0 2px;
+    padding: 2px;
+  }
+  
+  #details-popup {
+    /* text-decoration: underline; */
+    font-size: smaller;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+
+  #link {
+    text-decoration: underline;
+    color: red;
+  }
+  
+  #popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  #close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #333;
+    font-size: 1.5em;
+  }
+  
